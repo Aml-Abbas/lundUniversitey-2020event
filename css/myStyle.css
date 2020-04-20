@@ -1,0 +1,82 @@
+*{
+    color: #b1ceff;
+font-family: 'Glacial indifference';    
+}
+.page-footer , .nav-wrapper {
+    background-color: #1c1e8d;
+
+}
+
+
+.logo{
+    width: 2em;
+    height: 2em;
+    border-radius: 30em;
+}
+.ba-img {
+    background-image: url(../pic/background.png);
+    height: 458px;
+    background-position: center;
+  }
+  
+  .ba-img {
+    -webkit-animation: bg-pan-tl 8s infinite alternate-reverse both;
+    animation: bg-pan-tl 8s infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes bg-pan-tl {
+    0% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  @keyframes bg-pan-tl {
+    0% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+ .show_about{
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ @media screen and (max-width: 640px) {
+
+    
+}
+.gold{
+    color: #cda540;
+}
+.center{
+    align-content: center;
+}
+
+.category{
+  font-size: 12px;
+  height: 30px;
+}
+.name{
+  font-size: 15px;
+}
+.contain, .show{
+margin: 10%;
+}
+.activ {
+  background-color: #cda540;
+  color: #1c1e8d;
+}
+.hover a:hover:not(.activ) {
+    background-color: white;
+    color: #1c1e8d;
+}
+.video{
+  margin-bottom: 10%;;
+}
+.image-company{
+  height: 150px;
+}
